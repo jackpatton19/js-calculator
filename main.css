@@ -74,28 +74,33 @@ body{
     outline: 0;
 }
 
+.operator{
+    background-color: grey;
+}
+
 /* USING NTH CHILD SELECTOR TO GET EVERY OPERATOR(4th of every row) AND STYLE IT */
 button:nth-child(4){
     font-size: 20px;
-    background-color: #20B2AA;
+    background-color: orange;
 }
 
 button:nth-child(8){
     font-size: 20px;
-    background-color: #FFA500;
+    background-color: orange;
 }
 
 button:nth-child(12){
     font-size: 20px;
-    background-color: #F08080;
+    background-color: orange;
 }
 
 button:nth-child(16){
     font-size: 20px;
-    background-color: #7D93E0;
+    background-color: orange;
 }
 
 button:nth-child(20){
     font-size: 20px;
-    background-color: #9477AF;
+    background-color: black;
+    color: white;
 }
